@@ -1,0 +1,2 @@
+include ':app'
+rootProject.name='Practice 01 - Layout and Elements'
