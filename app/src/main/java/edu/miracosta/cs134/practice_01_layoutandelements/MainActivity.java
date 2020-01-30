@@ -3,10 +3,12 @@ package edu.miracosta.cs134.practice_01_layoutandelements;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
+import android.util.Log;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import org.w3c.dom.Text;
 
@@ -31,6 +33,12 @@ public class MainActivity extends AppCompatActivity
         counter = 0;
         counterTextView.setText(String.valueOf(counter));
        // counterView.setTex
+
+       Log.d("woot", "i am here " + counter);
+
+        // Display a toast
+        Toast.makeText(this, R.string.cool_message, Toast.LENGTH_LONG).show();
+
     }
 
 
@@ -38,6 +46,9 @@ public class MainActivity extends AppCompatActivity
     public void incrementCounter(View view)
     {
         counter++;
+        Log.d("counter" , String.valueOf(counter));
         counterTextView.setText(String.valueOf(counter));
+
+
     }
 }

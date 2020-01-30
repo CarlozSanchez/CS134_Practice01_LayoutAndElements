@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Practice 01 - Layout and Elements</string>
+    <string name="counter_button_text">Button Rusky</string>
+    <string name="increment_button_text">Incrementa</string>
+    <string name="counter_view_text">Keeps track the number of times increment button is pressed</string>
+    <string name="cool_message">Drabuschci!!!!!!</string>
+</resources>

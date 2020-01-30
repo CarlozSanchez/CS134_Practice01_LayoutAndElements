@@ -3,4 +3,5 @@
     <string name="counter_button_text">A button that increments the counter by 1</string>
     <string name="increment_button_text">Increment</string>
     <string name="counter_view_text">Keeps track the number of times increment button is pressed</string>
+    <string name="cool_message">What up Dawg!!!!!!</string>
 </resources>
